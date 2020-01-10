@@ -71,6 +71,7 @@ console.log(json.books[2].name)
 console.log(json.books.length)
 for(var a=0 ; a<3 ; a++)
 {
-    console.log(books[a].name)
+    console.log(json.books[a].name)
     
 }
+
