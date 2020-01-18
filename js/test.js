@@ -69,9 +69,16 @@ console.log(json.books[0].name)
 console.log(json.books[1].name)
 console.log(json.books[2].name)
 console.log(json.books.length)
-for(var a=0 ; a<3 ; a++)
+for(var a=0 ; a<json.books.length ; a++)
 {
     console.log(json.books[a].name)
     
 }
+for(a in json) {
+    console.log(json.book[a].name)
 
+}
+for(a in json) {
+    console.log(json.book[a][name])
+
+}
